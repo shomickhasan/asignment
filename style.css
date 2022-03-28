@@ -1,0 +1,642 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Portfolio Personal Website
+	Template URL: http://www.abm.com
+	Description: Personal Website
+	Author: Md. Majidul Islam
+	Author URL: http://www.ab-majid.info
+	License: GNU General Public 
+	Version: 2020.0.1
+-----------------------------------------------------------------------------------
+
+	1. Typography-- line 25
+	2. Topbar area-- line 64
+	3. Nav bar area --line 75
+	4. main slider-- line 91
+	5. geat-idea ,quick-setting, cloud service, cross devlopment-- line 158
+	6. feature work area--line 185
+	7. latest post area --line 220
+	8. getin touch --line 239
+	9. footer area-- line--267
+	10. media width for 768px--line 310
+	11 media width for 312px --line 383  
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+a, 
+p,
+ul{
+	margin: 0;
+	text-decoration: none;
+}
+
+
+
+
+body{
+	margin:0; 
+	padding: 0;
+	font-family: 'Lato', sans-serif !important;
+}
+
+
+.primary-color{
+	color: #BEA44D;
+}
+
+h2{
+	color: #916C02;
+	text-transform: capitalize;
+	font-size: 30px;
+	font-weight: 700;
+
+}
+
+p{
+	color:#989DA0;
+	font-size: 14px;
+}
+     /************ topbar area ************/
+
+   .topbar-contact{
+   	background-color: #F9F7F3;
+   	font-size: 10px;
+   }
+   .topbar-contact .phone, .topbar-contact .email{
+     font-size: 14px;
+   }
+
+   /*****************nav area******************/
+
+ .my-nav{
+ 	margin-bottom: 0 !important;
+ 	padding-bottom: 0 !important;
+ }
+ .navbar-brand img {
+  width: 73%;
+}
+
+ ul li{
+	padding: 15px !important;
+}
+
+  
+ ul li a.nav-item-custom{
+	font-size: 12px;
+	color: #000;
+	text-transform: uppercase;
+	padding: 5px !important;
+	
+}
+
+ul li a.active{
+	border-bottom: 1px solid #BEA44D;
+	color: #BEA44D !important;
+	padding-bottom: 3px ;
+}
+
+ul li a.nav-item-custom:hover{
+	border-bottom: 1px solid #BEA44D;
+	color: #BEA44D !important;
+	padding-bottom: 3px ;
+	background-color: #fff !important;
+}
+
+.nav-toggle-btn{
+	font-size: 25px;
+	border: none;
+	color: #BEA44D !important;
+	margin-left: 1%;
+	
+}
+.nav-toggle-btn i{
+	color: #BEA44D !important;
+	outline: none !important;
+}
+
+
+/******************** main slider *************/
+
+.carousel-item{
+	position: relative;
+
+
+
+}
+.carousel-item::after{
+	content: "";
+	clear: both;
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(184, 172, 129, 0.5);
+	left: 0;
+	top: 0;
+}
+
+.carousel-caption{
+	top: 30%;
+	bottom: 0 !important;
+}
+
+.caption-contant h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.heading_dev{
+	background-color: #FFF;
+	color: #BEA44D;
+}
+.caption-bottom {
+    margin-left: -81px;
+}
+
+.caption-bottom h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.caption-bottom-contant i{
+	font-size: 50px;
+	padding-bottom: 5px;
+}
+.font-aswam5{
+	font-size: 50px;
+	padding-bottom: 5px;
+}
+
+.contant p{
+	font-size: 12px;
+	color: #989DA0;
+}
+.carousel-indicators{
+	margin-bottom: 20px;
+}
+
+
+/*geat-idea ,quick-setting, cloud service, cross devlopment*/
+.getidea-font-aswam{
+	font-size: 50px;
+	color: #BEA44D;
+	padding: 5px;
+	margin-top: 15px;
+	background-color: #F9F8F3;
+	border: 1px solid #F9F8F3 !important;
+	border-radius: 50%;
+}
+.contant h5{
+	font-size: 18px;
+	text-transform: capitalize;
+	margin-top: 12px;
+}
+/*feature-work*/
+.feature-work-top{
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+p.feature-work{
+		padding: 0 28%;
+		font-size: 12px;
+		line-height: 19px;
+		color: #989DA0;
+}
+
+/******************* feature work area ************/
+.second-carasol{
+	width: 100%;
+}
+
+span.glyphicon.glyphicon-chevron-left {
+	color: #BEA44D;
+	position: relative;
+	left: -91%;
+	padding: 3px;
+	border: 1px solid #BEA44D;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+
+
+span.glyphicon.glyphicon-chevron-right {
+  color: #BEA44D;
+  position: relative;
+  right: -75%;
+  padding: 3px;
+  border: 1px solid #BEA44D;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+
+span.glyphicon.glyphicon-chevron-left, span.glyphicon.glyphicon-chevron-right:hover{
+	background-color:#BEA44D !important ;
+	color: white !important;
+}
+
+/***********************latest post***************************/
+
+.card-body h4{
+	font-size: 19px;
+}
+
+.card-body span.date{
+	color: #AAB4B9;
+	font-size: 12px;
+}
+
+.card-body{
+	color: #AAB4B9;
+	
+}
+
+.card-body p{
+	font-size: 11px;	
+}
+/****************************getin touch *****************/
+.getin-touch img, .getin-touch form{
+	width: 100%;
+	box-shadow: 1px 0px 5px 1px;
+	height: 100%;
+	padding: 5%;
+}
+
+
+input#name, input#email , input#phone{
+    height: 46px;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #FFFAEF;
+}
+textarea#message{
+	font-size: 14px;
+	background-color: #FFFAEF;
+}
+button.form-submit{
+	background-color: #BEA44D;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 12px;
+}
+
+/****************************footer area**************/
+footer{
+	background-color:#F9EDD5 ;
+	width: 100%;
+}
+
+.footer-top{
+	width: 100%;
+	height: 100%;
+}
+
+span.primary-color.h1.font-weight-bold, span.footer-logo .display-4 .primary-color .font-weight-light {
+    font-size: 40px;
+}
+
+footer ul li a {
+	font-size: 10px;
+	font-weight: 700;
+	color: #000;
+}
+
+li.pb-2.list-unstyled.footer-contact{
+	font-size: 12px;
+	font-weight: 700;
+	color: #000;
+}
+.footer-contant-heading{
+	font-weight: 700;
+	color: #000;
+	text-transform: capitalize;
+}
+
+/*footer bottom area*/
+.footer-bottom{
+   background-color: #BEA44D;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   display: block;
+
+}
+
+.copyright{
+	font-size: 20px;
+	padding: 15px;
+}
+.footer-nav{
+	margin: 0 !important;
+	padding: 0 !important;
+
+}
+
+.footer-nav .nav-item  {
+   
+    
+    margin: 0 !important;
+	padding: 0 !important;
+
+}
+.footer-nav .nav-item  a.footer-nav-item{
+	margin: 0px;
+	color: #fff;
+	padding: 10px;
+	 font-size: 20px;
+}
+
+/*************************media width for 1024px******************/
+@media only screen and (max-width: 1024px) {
+	/*navbar-brand*/
+	img {
+  width: 70%;
+  margin-top: 10%;
+ }
+
+ /*all heading h2*/
+ h2{
+ 	font-size: 23px;
+ }
+ width{
+ 	padding-top: 0;
+ }
+ /*main slider area*/
+ .carousel-item img{
+ 	width: 100%;
+ 	padding: 0;
+ 	margin: 0;
+ }
+ /*feature work slider area*/
+
+ .second-carasol img{
+ 	width: 100%;
+ 	padding: 0;
+ 	margin: 0;
+ }
+ span.glyphicon.glyphicon-chevron-left {
+	
+	left: -81px;
+}
+
+span.glyphicon.glyphicon-chevron-right{
+	right: -81px;
+}
+
+/*get in touch section*/
+.getin-touch img {
+  padding: 0;
+  margin: 0;
+}
+.form-submit.btn {
+  margin-bottom: 8px;
+}
+}
+
+/*************************media width for 768px******************/
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  h2{
+  	font-size: 20px;
+  }
+/*nav section*/
+  .my-nav {
+  background-color: #ffff;
+  float: center;
+  display: block;
+}
+
+.navbar-brand {
+  width: 45%;
+}
+.navbar-brand img {
+  width: 40% !important;
+  margin-top: 75px !important;
+}
+
+/*############ main   slider area  #############*/
+.caption-contant h1 {
+  font-size: 25px;
+}
+.svg-inline--fa.fa-user.fa-w-14.font-aswam5 {
+  font-size: 31px;
+}
+.font-aswam5{
+	font-size: 31px;
+	padding-bottom: 5px;
+}
+
+/*############ feature work  slider  #############*/
+.second-carasol {
+  width: 100%;
+}
+
+span.glyphicon.glyphicon-chevron-left {
+	
+	left: 0;
+}
+
+span.glyphicon.glyphicon-chevron-right{
+	right: 0;
+}
+
+/*############ get in touch area  #############*/
+
+.getin-touch img, .getin-touch form{
+	
+	padding: 13%;
+}
+
+button.form-submit{
+	
+	width: 100% !important;
+	float: left !important;
+}
+/*############ footer area  slider  #############*/
+.footer-contant-heading {
+  font-size: 13px;
+}
+
+li.pb-2.list-unstyled.footer-contact{
+	font-size: 12px;
+	font-weight: 300;
+	color: #000;
+	}
+
+
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+/*****************mobile version for width 480px****************/
+
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  /*############# nav area #############*/
+ .navbar-brand {
+  width: 100%;
+  display: block;
+}
+.navbar-brand img {
+  width: 27% !important;
+  margin-top: 0 !important;
+}
+.my-nav ul{
+	
+	margin: 0!important;
+	padding: 0 !important;
+	width: 100%;
+     display: block ruby;
+     float: right;
+}
+
+ ul li{
+	padding: 5px !important;
+}
+
+ ul li a.nav-item-custom {
+  font-size: 12px;
+}
+ul li a.active{
+	border-bottom: 1px solid #BEA44D;
+	color: #BEA44D !important;
+	border-bottom: none ;
+}
+
+ul li a.nav-item-custom:hover{
+	color: #BEA44D !important;
+	border-bottom: none;
+}
+
+
+
+  /*############ main   slider area  #############*/
+
+.caption-contant h1 {
+  font-size: 25px;
+}
+ .font-aswam5 {
+  font-size: 23px;
+  padding: 0;
+}
+.caption-bottom-contant {
+  padding: 3px !important;
+  margin: 0 !important;
+}
+ .carousel-indicators li, .carousel-indicators li.active{
+	height: 3px;
+	width: 3px;
+}
+
+.caption-bottom h3 {
+  font-size: 12px;
+ 
+}
+
+.carasol-bottom-p {
+  font-size: 6px;
+}
+
+.caption-bottom-contant {
+  padding: 10px !important;
+}
+
+.caption-bottom {
+  margin-left: 10px;
+}
+
+/*############## all heading area########*/
+h2 {
+  
+  font-size: 18px;
+  
+}
+ /*############ feature work  slider  #############*/
+.second-carasol {
+  width: 100%;
+}
+
+/*############## caed title#########*/
+
+
+.card-title {
+  font-size: 14px !important;
+  color: #BEA44D;
+}
+.all-card{
+	margin: 2% 0 !important;
+}
+
+.card img{
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/***********get in touch area*******/
+.col-md-6.getin-touch {
+  margin-bottom: 34px;
+}
+
+/*############ footer area #############*/
+
+footer{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.copyright{
+	text-align: center;
+}
+
+.text-white.copyright {
+  font-size: 10px;
+}
+
+.footer-nav {
+  margin: 0 !important;
+  padding: 0 !important;
+  justify-content: center !important;
+}
+
+.footer-nav-item ul{
+	text-align: center;
+	padding: 0 15px;
+}
+
+.footer-nav-item li{
+  padding: 0px !important;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
